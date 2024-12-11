@@ -75,3 +75,16 @@ console.log(myFunction("praise"));
 console.log(myFunction("risky"));
 console.log(myFunction("paris"));
 }
+
+function
+myFunction
+(
+a
+)
+{
+ const halfLength = Math.floor(a.length / 2);
+  return a.slice(0, halfLength);
+console.log(myFunction('abcdefgh'));
+console.log(myFunction('1234')); 
+console.log(myFunction('gedcba')); 
+}
