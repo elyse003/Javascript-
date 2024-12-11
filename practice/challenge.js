@@ -26,3 +26,14 @@ console.log(myFunction('zyxbwol',5));
 console.log(myFunction('gfedcba',3));
 
 }
+function
+myFunction
+(
+    a
+)
+{
+    return a.slice(3);
+    console.log(myFunction('abcdef'));
+console.log(myFunction('1234'));
+console.log(myFunction('fgedcba'));
+}
