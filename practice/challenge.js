@@ -99,3 +99,15 @@ console.log(myFunction('abcdefg'));
 console.log(myFunction('1234')); 
 console.log(myFunction('fgedcba')); 
 }
+function
+myFunction
+(
+a, b
+)
+{
+
+return  (a * b) / 100;
+console.log(myFunction(100, 50));
+console.log(myFunction(10, 1));
+console.log(myFunction(500, 25));
+}
