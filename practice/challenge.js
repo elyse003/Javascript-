@@ -199,3 +199,16 @@ console.log(myFunction(1.12397));
 console.log(myFunction(26.1379));
 
 }
+function
+myFunction
+(
+a
+)
+{
+
+return a.toString().split('').map(Number);
+console.log(myFunction(10));
+console.log(myFunction(931));
+console.log(myFunction(193278));
+
+}
