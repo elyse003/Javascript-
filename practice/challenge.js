@@ -185,3 +185,17 @@ function myFunction(a, b) {
         return a * b;
     }
 }
+function
+myFunction
+(
+a
+)
+{
+
+return Math.round(a * 100) / 100;
+console.log(myFunction(2.12397));
+console.log(myFunction(3.136));
+console.log(myFunction(1.12397));
+console.log(myFunction(26.1379));
+
+}
