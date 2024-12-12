@@ -168,3 +168,12 @@ console.log(myFunction('h', 'how many times does the character occur in this sen
 console.log(myFunction('?', 'how many times does the character occur in this sentence?'));
 console.log(myFunction('z', 'how many times does the character occur in this sentence?'));
 }
+function myFunction(a) {
+    return Number.isInteger(a);
+
+// Test Cases
+console.log(myFunction(4));
+console.log(myFunction(1.123)); 
+console.log(myFunction(1048));
+console.log(myFunction(10.48));
+}
