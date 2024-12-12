@@ -177,3 +177,11 @@ console.log(myFunction(1.123));
 console.log(myFunction(1048));
 console.log(myFunction(10.48));
 }
+
+function myFunction(a, b) {
+    if (a < b) {
+        return a / b;
+    } else {
+        return a * b;
+    }
+}
