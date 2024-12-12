@@ -141,3 +141,16 @@ console.log(myFunction('lips', 's'));
 console.log(myFunction('Java', 'script')); 
 console.log(myFunction(' think, therefore I am', 'I')); 
 }
+function
+myFunction
+(
+a
+)
+{
+
+return a % 2 === 0;
+
+console.log(myFunction(10));
+console.log(myFunction(-4));
+console.log(myFunction(5));
+}
