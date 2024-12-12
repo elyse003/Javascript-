@@ -124,3 +124,20 @@ console.log(myFunction(6, 5, 4, 3, 2, 1));
 console.log(myFunction(6, 2, 1, 4, 2, 3));
 console.log(myFunction(2, 3, 6, 4, 2, 3));
 }
+function
+myFunction
+(
+a, b
+)
+{
+
+ if (a.includes(b)) {
+        return b + a;
+    } else {
+        return a + b;
+    }
+console.log(myFunction('cheese', 'cake')); 
+console.log(myFunction('lips', 's'));
+console.log(myFunction('Java', 'script')); 
+console.log(myFunction(' think, therefore I am', 'I')); 
+}
