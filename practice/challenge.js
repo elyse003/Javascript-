@@ -111,3 +111,16 @@ console.log(myFunction(100, 50));
 console.log(myFunction(10, 1));
 console.log(myFunction(500, 25));
 }
+function
+myFunction
+(
+a, b, c, d, e, f
+)
+{
+
+    return Math.pow((((a + b) - c) * d) / e, f);
+
+console.log(myFunction(6, 5, 4, 3, 2, 1));
+console.log(myFunction(6, 2, 1, 4, 2, 3));
+console.log(myFunction(2, 3, 6, 4, 2, 3));
+}
